@@ -43,3 +43,13 @@
 
 //  console.log(4 / 3 * (Math.PI * r * r * r));
 
+
+function sandbox () {
+  let age  = Number(prompt("Сколько Вам лет?"));
+  
+  return age;
+}
+
+const result = sandbox();
+
+console.log(result);
