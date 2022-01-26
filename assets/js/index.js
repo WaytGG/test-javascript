@@ -4,8 +4,6 @@
 
 // console.log(1 / 2 * (a * b));
 
-
-
 // let a = Number(prompt("Сторона трапеции"));
 
 // let b = Number(prompt("Сторона трапеции"));
@@ -14,14 +12,9 @@
 
 // console.log((a+b) / 2 * h);
 
-
-
-
 // let r = Number(prompt("Радиус круга"));
 
 // console.log(Math.PI * r * r);
-
-
 
 // let a = Number(prompt("Сторона паралеллограмма"));
 
@@ -29,27 +22,36 @@
 
 // console.log( a * h);
 
-
-
 // let r = Number(prompt("Радиус цилиндра"));
 
 // let h = Number(prompt("Высота цилиндра"));
 
 // console.log(Math.PI * r * r * h);
 
-
-
 //  let r = Number(prompt("Радиус сферы"));
 
 //  console.log(4 / 3 * (Math.PI * r * r * r));
 
+// function sandbox () {
+//   let age  = Number(prompt("Сколько Вам лет?"));
 
-function sandbox () {
-  let age  = Number(prompt("Сколько Вам лет?"));
-  
-  return age;
+//   return age;
+// }
+
+// const result = sandbox();
+
+// console.log(result);
+
+const a = Number(prompt("Высота треугольника"));
+
+const b = Number(prompt("Ширина треугольника"));
+
+
+function triangle() {
+
+  return (1 / 2 * (a * b));
 }
 
-const result = sandbox();
+const result = triangle();
 
 console.log(result);
