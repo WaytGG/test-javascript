@@ -49,12 +49,11 @@
 // maxNum(3, 7) // 7
 // maxNum(5, 1) // 5
 
-
 // function maxNumber(maxNum1, maxNum2) {
 //   maxNum1 > maxNum2;
-   
+
 //   maxNum2 > maxNum1;
-  
+
 //   if (maxNum1 > maxNum2) {
 //     return maxNum1;
 //   }
@@ -86,9 +85,9 @@
 //   if (isAdultAge < 18) {
 //     return Boolean;
 //    }
-//    return 
+//    return
 //  }
- 
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 3. Создать функцию checkMultiplicity, которая принимает два числа и проверяет кратность нацело первого вторым:
@@ -99,26 +98,47 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// 4. Проверка возможности треугольника. Создать функцию которая принимает длины треугольника; 
+// 4. Проверка возможности треугольника. Создать функцию которая принимает длины треугольника;
 // функция возвращает true если треугольник возможен и false если нет
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function minNumber(num1, num2) {
-  if (num1 <= num2) {
-    return num1;
-  }
+//----------- 1 Вариант------------ //
+// function minNumber(num1, num2) {
+//   if (num1 <= num2) {
+//     return num1;
+//   }
 
-  if (num1 >= num2) {
-    return num1;
-  }
-}
+//   if (num1 >= num2) {
+//     return num1;
+//   }
+// }
 
-const result = minNumber(5, 10);
+// const result = minNumber(5, 10);
 
-console.log(result);
+// console.log(result);
 
-const result2 = minNumber(15, 5);
+// const result2 = minNumber(15, 5);
 
-console.log(result2);
+// console.log(result2);
+
+//-------------- 2 Вариант ---------//
+
+// function minNumber(num1, num2) {
+//   if (num1 <= num2) {
+//     return num1;
+
+//   } else {
+//     return num1;
+//   }
+// }
+
+//  const result = minNumber(5, 10);
+
+//  console.log(result);
+
+// const result2 = minNumber(15, 5);
+
+// console.log(result2);
+
