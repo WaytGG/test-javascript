@@ -110,7 +110,7 @@ function minNumber(num1, num2) {
     return num1;
   }
 
-  if (num2 >= num1) {
+  if (num1 >= num2) {
     return num1;
   }
 }
@@ -119,6 +119,6 @@ const result = minNumber(5, 10);
 
 console.log(result);
 
-const result2 = minNumber(10, 25);
+const result2 = minNumber(15, 5);
 
 console.log(result2);
