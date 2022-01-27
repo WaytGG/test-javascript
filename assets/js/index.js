@@ -35,23 +35,58 @@
 // function sandbox () {
 //   let age  = Number(prompt("Сколько Вам лет?"));
 
-//   return age;
-// }
+//    return age;
+//  }
 
-// const result = sandbox();
+//  const result = sandbox();
 
-// console.log(result);
+//  console.log(result);
 
-const a = Number(prompt("Высота треугольника"));
+////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
-const b = Number(prompt("Ширина треугольника"));
+// 1. Создать функцию которая вернет максимальное число из двух
+// maxNum(3, 7) // 7
+// maxNum(5, 1) // 5
 
 
-function triangle() {
+function maxNumber() {
+  let maxNum1 = (3, 7);
 
-  return (1 / 2 * (a * b));
+  let maxNum2 = (5, 1);
+
+  
 }
+ 
 
-const result = triangle();
 
-console.log(result);
+
+
+
+// 2. Создать функцию isAdult, которая будет проверять возраст пользователя на совершеннолетие:
+// isAdult(20); // true
+// isAdult(4); // false
+
+// function idAdult() {
+//   let isAdultAge = (prompt("Сколько Вам лет?"));
+
+//   if (isAdultAge > 18) {
+//      return true;
+//    }
+
+//   if (isAdultAge < 18) {
+//     return false;
+//    }
+//    return isAdultAge;
+//  }
+ 
+
+// 3. Создать функцию checkMultiplicity, которая принимает два числа и проверяет кратность нацело первого вторым:
+// checkMultiplicity(25, 5) // true
+// checkMultiplicity(15, 3) // true
+// checkMultiplicity(15, 5) // true
+// checkMultiplicity(15, 4) // false
+
+
+// 4. Проверка возможности треугольника. Создать функцию которая принимает длины треугольника; 
+// функция возвращает true если треугольник возможен и false если нет
