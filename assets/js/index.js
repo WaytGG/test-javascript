@@ -1,94 +1,52 @@
-// let a = Number(prompt("Высота треугольника"));
-
-// let b = Number(prompt("Ширина треугольника"));
-
-// console.log(1 / 2 * (a * b));
-
-// let a = Number(prompt("Сторона трапеции"));
-
-// let b = Number(prompt("Сторона трапеции"));
-
-// let h = Number(prompt("Высота трапеции"));
-
-// console.log((a+b) / 2 * h);
-
-// let r = Number(prompt("Радиус круга"));
-
-// console.log(Math.PI * r * r);
-
-// let a = Number(prompt("Сторона паралеллограмма"));
-
-// let h = Number(prompt("Высота паралеллограмма"));
-
-// console.log( a * h);
-
-// let r = Number(prompt("Радиус цилиндра"));
-
-// let h = Number(prompt("Высота цилиндра"));
-
-// console.log(Math.PI * r * r * h);
-
-//  let r = Number(prompt("Радиус сферы"));
-
-//  console.log(4 / 3 * (Math.PI * r * r * r));
-
-// function sandbox () {
-//   let age  = Number(prompt("Сколько Вам лет?"));
-
-//    return age;
-//  }
-
-//  const result = sandbox();
-
-//  console.log(result);
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 // 1. Создать функцию которая вернет максимальное число из двух
 // maxNum(3, 7) // 7
 // maxNum(5, 1) // 5
 
-// function maxNumber(maxNum1, maxNum2) {
-//   maxNum1 > maxNum2;
+/* let num1 = prompt("Введите первое число");
 
-//   maxNum2 > maxNum1;
+let num2 = prompt("Введите второе число");
 
-//   if (maxNum1 > maxNum2) {
-//     return maxNum1;
-//   }
+function maxNumber(maxNum1, maxNum2) {
+  if (isNaN(maxNum1) || isNaN(maxNum2)) {
+    return null;
+  }
 
-//   if (maxNum2 > maxNum1) {
-//     return maxNum2;
-//   }
+  if (maxNum1 > maxNum2) {
+    return maxNum1;
+  } else {
+    return maxNum2;
+  }
+}
 
-//   return maxNum1;
-// }
+const result = maxNumber(num1, num2);
 
-// const result = maxNumber(7, 5);
+console.log(result); */
 
-// console.log(result);
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// 2. Создать функцию isAdult, которая будет проверять возраст пользователя на совершеннолетие:
-// isAdult(20); // true
-// isAdult(4); // false
+//2. Создать функцию isAdult, которая будет проверять возраст пользователя на совершеннолетие:
+//isAdult(20); // true
+//isAdult(4); // false
 
-// function isAdult() {
-//   let isAdultAge = (prompt("Сколько Вам лет?"));
+/* let isAdultAge = prompt("Сколько Вам лет?");
 
-//   if (isAdultAge > 18) {
-//     return Boolean;
-//    }
+function isAdult(userAge) {
+  if (isNaN(userAge)) {
+    return null;
+  }
 
-//   if (isAdultAge < 18) {
-//     return Boolean;
-//    }
-//    return
-//  }
+  if (userAge >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+let result = isAdult(isAdultAge);
+
+console.log(result); */
+
+
 
 // 3. Создать функцию checkMultiplicity, которая принимает два числа и проверяет кратность нацело первого вторым:
 // checkMultiplicity(25, 5) // true
@@ -96,49 +54,48 @@
 // checkMultiplicity(15, 5) // true
 // checkMultiplicity(15, 4) // false
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* 
+let num1 = prompt('Введите число');
+let num2 = prompt('Введите число');
+
+function checkMultiplicity(n1, n2){
+  let n3 = n1 % n2;
+
+  if (isNaN(num1) || isNaN(num2)){
+  return null;
+  } else (n1 % n2); {
+  return n3;
+  }
+}
+
+let result = checkMultiplicity(num1, num2);
+
+console.log(result); */
+
+
 
 // 4. Проверка возможности треугольника. Создать функцию которая принимает длины треугольника;
 // функция возвращает true если треугольник возможен и false если нет
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* let n1 = prompt("Введите 1 сторону треугольника");
 
-//----------- 1 Вариант------------ //
-// function minNumber(num1, num2) {
-//   if (num1 <= num2) {
-//     return num1;
-//   }
+let n2 = prompt("Введите 2 сторону треугольника");
 
-//   if (num1 >= num2) {
-//     return num1;
-//   }
-// }
+let n3 = prompt("Введите 3 сторону треугольника");
 
-// const result = minNumber(5, 10);
+function triangle(a, b, c) {
+  if (isNaN(a) || isNaN(b) || isNaN(c)) {
+    return null;
+  }
 
-// console.log(result);
+  if (a + b > c && a + c > b && b + c > a) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
-// const result2 = minNumber(15, 5);
+let result = triangle(n1, n2, n3);
 
-// console.log(result2);
-
-//-------------- 2 Вариант ---------//
-
-// function minNumber(num1, num2) {
-//   if (num1 <= num2) {
-//     return num1;
-
-//   } else {
-//     return num1;
-//   }
-// }
-
-//  const result = minNumber(5, 10);
-
-//  console.log(result);
-
-// const result2 = minNumber(15, 5);
-
-// console.log(result2);
-
+alert(result);
+ */
