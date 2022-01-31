@@ -6,6 +6,7 @@ while (iter < 10) {
   iter ++;
 } */
 
-for (let iter = 1; iter < 10; iter++) {
+/* for (let iter = 1; iter < 10; iter++) {
   console.log(iter);
 }
+ */
