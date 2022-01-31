@@ -8,6 +8,8 @@ let result = sayHello(userName);
 
 alert(result); */
 
+
+
 // Task#2 функция которая вернет правду если полученная параметр строка не пустая
 
 /* let questionUser = prompt("Wanna water?");
@@ -23,6 +25,8 @@ function question(notEmpty) {
 let result = question(questionUser);
 
 console.log(result); */
+
+
 
 // Task#3 функция которая принимает параметры цену продукта и кол-во, возвращает общую сумму заказа
 
@@ -43,6 +47,8 @@ function price(priceUser, amountUser) {
 let result = price(priceProduct, amount);
 
 alert(result);*/
+
+
 
 // Task#4 функция которая принимает параметры сумму заказа и кол-во денег в кошельке, и возвращает хватает ли денег купить эти товары
 
@@ -66,6 +72,8 @@ let result = price(priceAmount);
 
 alert(result); */
 
+
+
 //Task#5 функция которая принимает параметр кол-во этажей подьезда (с 4мя квартирами на этаже) и вернет посчитаное общее колво квартир в подьезде
 /* 
 let qustionStorey = prompt("Сколько этажей?");
@@ -83,6 +91,8 @@ function amountStorey(storey) {
 let result = amountStorey(qustionStorey);
 
 alert(result); */
+
+
 
 //Task#6*  функция которая проверит что полученное как параметр число находится между 0 и 10, вернет ложь если снаружи диапазона
 
@@ -104,6 +114,8 @@ let result = numberRange(questionNumber);
 
 alert(result); */
 
+
+
 //Task#6** функция которая вернет модуль (abs) числа (если пришло отрицательное то вернет положительное, если положительное то вернет положительное)
 
 /* let numberQuestion = prompt('Введите число')
@@ -122,6 +134,8 @@ let result = returnNumber(numberQuestion);
 
 alert(result); */
 
+
+
 //Task#6*** функция которая вернет случайное (random) число от 0 до 10
 
 /* let num1 = 0;
@@ -135,6 +149,8 @@ function getRandom(min, max) {
 let result = getRandom(num1, num2);
 
 alert(result); */
+
+
 
 //Task#6**** функция которая вернет квадратный корень числа (sqrt)
 
@@ -151,6 +167,8 @@ function returnSqrt (n) {
 let result = returnSqrt(numberQuestion);
 
 alert(result); */
+
+
 
 //Task#6***** функция которая посчитает корни квадратного уравнения (Не работает)
 
@@ -173,7 +191,9 @@ function square(a, b, c) {
 
 let result = square(num1, num2, num3);
 
-alert(result); */
+alert(result); */ 
+
+
 
 //Task функция которая вернет сезон года в зависимости от полученного номера месяца getSeason(2) // 'зима' getSeason(9) // 'лето'
 
@@ -208,3 +228,36 @@ function funcSeason(season) {
 }
 
 funcSeason(num); */
+
+
+//Task функция которая проверит совершеннолетие пользователя в зависимости от указанной страны
+
+/* isAdult(18, 'ukraine') 
+   isAdult(18, 'japan')
+   isAdult(18, 'Korea')*/
+   
+let num = prompt('Введите возраст')
+
+function userAge(age) {
+let userAge;
+
+  switch(age) {
+    case 'ua':
+      alert('ukraine')
+      userAge = 'ukraine 18';
+      break;
+    case 'jp':
+      alert('japan')
+      userAge = 'japan, 20';
+      break;
+    case 'ind':
+      alert('indonesia')
+      userAge = 'indonesia, 21';
+      break;
+  }
+  return userAge;
+}
+
+let result = userAge(num);
+
+alert(result);
