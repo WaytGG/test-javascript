@@ -179,14 +179,14 @@ let num2 = prompt("Введите число");
 let num3 = prompt("Введите число");
 
 function square(a, b, c) {
-  let discr = b * b - 4 * a * c;
+  let d = b * b - 4 * a * c;
 
-  let d = discr;
-  if (d < 0) return d;
+  if (d > 0) {
+    let x1 = (-b + Math.sqrt(d)) / (2 * a);
+    let x2 = (-b - Math.sqrt(d)) / (2 * a);
 
-  let x1 = (-b + Math.sqrt(d)) / (2 * a);
-  let x2 = (-b - Math.sqrt(d)) / (2 * a);
-  return (d, x1, x2);
+    return 'X1=' + x1 + 'X2=' + x2;
+  }
 }
 
 let result = square(num1, num2, num3);
