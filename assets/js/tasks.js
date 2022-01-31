@@ -170,28 +170,17 @@ alert(result); */
 
 
 
-//Task#6***** функция которая посчитает корни квадратного уравнения (Не работает)
-
-/* let num1 = prompt("Введите число");
-
-let num2 = prompt("Введите число");
-
-let num3 = prompt("Введите число");
-
+//Task#6***** функция которая посчитает корни квадратного уравнения
+/* 
 function square(a, b, c) {
-  let d = b * b - 4 * a * c;
-
-  if (d > 0) {
-    let x1 = (-b + Math.sqrt(d)) / (2 * a);
-    let x2 = (-b - Math.sqrt(d)) / (2 * a);
-
-    return 'X1 =' + x1 + 'X2 =' + x2;
-  }
+  const D = b * b - 4 * a * c;
+  const x1 = (-b + Math.sqrt(D)) / (2 * a);
+  const x2 = (-b - Math.sqrt(D)) / (2 * a);
+  return 'x1= ' + x1 + ' ' + 'x2= ' + x2;
 }
 
-let result = square(num1, num2, num3); */
-
-
+let result = square(4, 5, 6); 
+console.log(result);*/
 
 
 
@@ -232,6 +221,19 @@ funcSeason(num); */
 
 //Task функция которая проверит совершеннолетие пользователя в зависимости от указанной страны
 
-/* isAdult(18, 'ukraine') 
-   isAdult(18, 'japan')
-   isAdult(18, 'Korea')*/
+/* (18, 'ukraine') 
+   (20, 'japan')
+   (21, 'singapore)*/
+   
+/* let userCountry = prompt('Введите страну');
+let userAge = prompt('Введите Ваш возраст');
+
+function userAdult (country, age) {
+  if (isNaN(userAge) || userCountry === '') return null;
+  if (country === 'uk' && age >= 18 || country === 'jp' && age >= 20 || country === 'sp' && age >= 21) {
+    return true;
+  } else return false;
+}
+
+result = userAdult (userCountry, userAge);
+alert (result); */
