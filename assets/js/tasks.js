@@ -235,29 +235,3 @@ funcSeason(num); */
 /* isAdult(18, 'ukraine') 
    isAdult(18, 'japan')
    isAdult(18, 'Korea')*/
-   
-/* let num = prompt('Введите возраст')
-
-function userAge(age) {
-let userAge;
-
-  switch(age) {
-    case 'ua':
-      alert('ukraine')
-      userAge = 'ukraine 18';
-      break;
-    case 'jp':
-      alert('japan')
-      userAge = 'japan, 20';
-      break;
-    case 'ind':
-      alert('indonesia')
-      userAge = 'indonesia, 21';
-      break;
-  }
-  return userAge;
-}
-
-let result = userAge(num);
-
-alert(result); */
