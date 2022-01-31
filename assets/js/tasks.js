@@ -185,13 +185,13 @@ function square(a, b, c) {
     let x1 = (-b + Math.sqrt(d)) / (2 * a);
     let x2 = (-b - Math.sqrt(d)) / (2 * a);
 
-    return 'X1=' + x1 + 'X2=' + x2;
+    return 'X1 =' + x1 + 'X2 =' + x2;
   }
 }
 
-let result = square(num1, num2, num3);
+let result = square(num1, num2, num3); */
 
-alert(result); */ 
+
 
 
 
@@ -236,7 +236,7 @@ funcSeason(num); */
    isAdult(18, 'japan')
    isAdult(18, 'Korea')*/
    
-let num = prompt('Введите возраст')
+/* let num = prompt('Введите возраст')
 
 function userAge(age) {
 let userAge;
@@ -260,4 +260,4 @@ let userAge;
 
 let result = userAge(num);
 
-alert(result);
+alert(result); */
