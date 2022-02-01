@@ -61,16 +61,16 @@ let num2 = prompt('Введите число');
 function checkMultiplicity(n1, n2){
   if (isNaN(num1) || isNaN(num2)){
   return null;
-  } if (n1 % n2) {
+  } 
+
+  if (n1 % n2) {
   return false;
-  } else {
-    return true;
-  }
+  } else return true;
 }
 
 let result = checkMultiplicity(num1, num2);
 
-console.log(result);  */
+console.log(result); */
 
 
 
