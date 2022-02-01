@@ -54,23 +54,23 @@ console.log(result); */
 // checkMultiplicity(15, 5) // true
 // checkMultiplicity(15, 4) // false
 
-/* 
-let num1 = prompt('Введите число');
+ 
+/* let num1 = prompt('Введите число');
 let num2 = prompt('Введите число');
 
 function checkMultiplicity(n1, n2){
-  let n3 = n1 % n2;
-
   if (isNaN(num1) || isNaN(num2)){
   return null;
-  } else (n1 % n2); {
-  return n3;
+  } if (n1 % n2) {
+  return false;
+  } else {
+    return true;
   }
 }
 
 let result = checkMultiplicity(num1, num2);
 
-console.log(result); */
+console.log(result);  */
 
 
 
