@@ -59,7 +59,7 @@ console.log(result); */
 let num2 = prompt('Введите число');
 
 function checkMultiplicity(n1, n2){
-  if (isNaN(num1) || isNaN(num2)){
+  if (isNaN(n1) || isNaN(n2)){
   return null;
   } 
 
