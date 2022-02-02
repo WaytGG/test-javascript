@@ -83,13 +83,13 @@ console.log(result); */
 
 // 7) * спрашивать пользователя определенное число до тех пор пока он его не отгадает
   
-
-/* while (true) {
-  const num = prompt('Угадайте число от 0 до 10');
+/* 
+while (true) {
+  const num = Number(prompt('Угадайте число от 0 до 10'));
   
   if (num === 7) {
     alert('Верно!');
     break;
   } 
   else alert('Нет, введите еще раз');
-} */
+}  */
