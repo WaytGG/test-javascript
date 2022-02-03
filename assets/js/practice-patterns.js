@@ -65,3 +65,42 @@ for (let i = 1; i <=5; i++) {
 }
 
 console.log(boxes); */
+
+
+
+/* 1. создайте объект со структурой и заполните данными спросите у пользователя:
+{
+id,
+firstname,
+lastname,
+age,
+} */
+
+/* const userId = prompt('Введите id');
+const userFirstname = prompt('Введите Имя');
+const userLastame = prompt('Введите Фамилию');
+const userAge = prompt('Введите свой возраст');
+
+const userInfo = {
+  id: '',
+  firstname: '',
+  lastname: '',
+  age: ''
+}
+ */
+
+
+
+/* 2. Создайте обьект-лифт
+свойство хранящее текущий этаж, и метод смены этажа */
+
+
+
+
+//3. Клонировать обьект A и на его основе создать клон B
+
+
+
+
+/* 4. Создать _шаблон_ обьекта Пользователь.
+Принимать параметры - username, age, isMale, password. */
