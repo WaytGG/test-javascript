@@ -8,9 +8,9 @@ console.log(`Я живу в ${country}`);
 
 //2. Составить строку из переменных с названиями firstname и id в формате Ivan_39, вывести в консоль
 
-/* let firstname = 'Ivan';
+/* const firstname = 'Ivan';
 
-let id = '39';
+const id = '39';
 
 console.log(`${firstname}_${id}`); */
 
