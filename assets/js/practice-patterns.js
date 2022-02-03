@@ -87,20 +87,51 @@ const userInfo = {
   lastname: '',
   age: ''
 }
- */
+
+userInfo.id = userId;
+userInfo.firstname = userFirstname;
+userInfo.lastname = userLastame;
+userInfo.age = userAge;
+
+console.log(userInfo); */
 
 
 
 /* 2. Создайте обьект-лифт
 свойство хранящее текущий этаж, и метод смены этажа */
 
+let elevator = {
+  floor: '3',
+  
+}
+
 
 
 
 //3. Клонировать обьект A и на его основе создать клон B
 
+/* const a = {
+  firstname: 'Vasya',
+  lastname: 'Pupkin',
+  age: '22'
+}
+const b = Object.assign({}, a);
+
+console.log(b); */
 
 
 
 /* 4. Создать _шаблон_ обьекта Пользователь.
 Принимать параметры - username, age, isMale, password. */
+
+/* 
+function User(userInfo) {
+  this.username = 'Vasya';
+  this.age = '25';
+  this.isMale = 'Male';
+  this.password = 'qwe123';
+}
+console.log(User);
+
+let userOleg = new User();
+console.log(userOleg); */
