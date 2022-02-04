@@ -100,10 +100,17 @@ console.log(userInfo); */
 /* 2. Создайте обьект-лифт
 свойство хранящее текущий этаж, и метод смены этажа */
 
-let elevator = {
-  floor: '3',
-  
+/* let elevator = {
+  floor: '1',
+  up: function () {
+    this.floor++;
+  },
+  down: function () {
+    this.floor--;
+  }
 }
+
+console.log(elevator); */
 
 
 
