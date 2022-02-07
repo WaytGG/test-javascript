@@ -17,8 +17,19 @@ const arr2 = arr.map(Math.sqrt);
 console.log(arr2); */
 
 
+
 //3. Дан массив чисел 1...20. Вычислить сумму нечетных чисел массива
 
+/* let arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+function arraySum(array){
+let sum = 0;
+for(let i = 0; i < array.length; i++){
+    sum += array[i];
+    }
+console.log(sum);
+}
+arraySum(arrNum); */
 
 
 //4. * Дан массив чисел 1 до 10. Удалить у него каждое нечетное значение
