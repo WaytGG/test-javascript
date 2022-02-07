@@ -108,7 +108,7 @@ const storage = [
 //14. * Написать функцию которая будет фильтровать массив продуктов по количеству на складе больше 5 шт . 
 //И потом сортировать по возрастанию цены. (filter().sort()).Функция возвращает новый массив - результат фильтрации.
 
-const arrFil = storage.filter(function (c) {
+/* const arrFil = storage.filter(function (c) {
  return c.balance >=5;
 });
 
@@ -117,7 +117,7 @@ arrFil.sort(function(a, b){
 });
  
 
-console.log(arrFil);
+console.log(arrFil); */
 
 //------------
 //15. * Создать массив для Корзины покупок.
