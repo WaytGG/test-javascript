@@ -103,7 +103,7 @@ const storage = [
     productName: "Kivi",
     price: "30",
     balance: "350",
-    'id': '3'
+    productId: '3'
   },
 ];
 
@@ -134,7 +134,7 @@ console.log(result); */
 //Спрашивать у пользователя ИД продукта (индекс массива склада) который он хочет положить в Корзину покупок.
 //_Клонировать_ в Корзину обьект продукта, взятый из массива Склада (по ИД выбранному пользователем).
 
-/* const idProduct = prompt ('Введите id продукта');
+const idProduct = prompt ('Введите id продукта');
 
 
 function funcBasket(idNum) {
@@ -145,7 +145,7 @@ function funcBasket(idNum) {
 
 const basket = funcBasket(idProduct);
 
-console.log(basket); */
+console.log(basket);
 
 
 
