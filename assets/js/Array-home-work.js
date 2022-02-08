@@ -34,10 +34,24 @@ arraySum(arrNum); */
 
 //4. * Дан массив чисел 1 до 10. Удалить у него каждое нечетное значение
 
+/* const arrNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+const resultNumbers = arrNumbers.filter(function(i) {
+    return i % 2 === 0;
+});
+
+console.log(resultNumbers); */
 
 /* 5. * Обычным циклом создать массив строк от "user1" до "user15".
 Удалить все ячейки содержащие на конце строки символы 2, 3, 4.
 Пример (подчёркнутые должны быть удалены)
 [ "user1", _"user2"_, _"user3"_, _"user4"_, "user5", ..., _"user12"_ ]
  */
+
+let arrCicle = [];
+
+for (let i = 0; i <= 15; i++) {
+	arrCicle[i] = i + 1;
+}
+
+console.log(arrCicle);
