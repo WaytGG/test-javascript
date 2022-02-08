@@ -48,10 +48,10 @@ console.log(resultNumbers); */
 [ "user1", _"user2"_, _"user3"_, _"user4"_, "user5", ..., _"user12"_ ]
  */
 
-let arrCicle = [];
+/* let arrCicle = [];
 
 for (let i = 0; i <= 15; i++) {
 	arrCicle[i] = i + 1;
 }
 
-console.log(arrCicle);
+console.log(arrCicle); */
