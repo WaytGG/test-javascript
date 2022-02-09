@@ -154,7 +154,8 @@ console.log(user); */
 
 //17. * Циклом создать 5 пользователей (new User) и поместить каждого в массив users.
 
-/* function User(name, age, isMale, password) {
+/* const users = [];
+function User(name, age, isMale, password) {
   this.username = name;
   this.age = age;
   this.isMale = isMale;
@@ -162,7 +163,8 @@ console.log(user); */
 }
 
 for(i = 1; i <= 5; i++) {
-  let users = new User;
-  console.log([users]);
-} */
+  let user1 = new User;
+  users.push(user1);
+}
+console.log(users); */
 
