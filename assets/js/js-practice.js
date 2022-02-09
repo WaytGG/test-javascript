@@ -136,6 +136,18 @@ console.log(result); */
 
 // через find
 
+const arrBasket = [];
+
+let userNum = prompt('Введите ид продукта');
+
+function funcBasket (idi) {
+}
+
+const resultBasket = funcBasket(userNum);
+
+console.log(resultBasket);
+
+
 
 //------------
 //16. * Создать функ. конструктор Пользователь.
