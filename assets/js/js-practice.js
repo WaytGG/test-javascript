@@ -141,7 +141,28 @@ console.log(result); */
 //16. * Создать функ. конструктор Пользователь.
 //Принимать параметры - username, age, isMale, password.
 
+/* function User(name, age, isMale, password) {
+  this.username = name;
+  this.age = age;
+  this.isMale = isMale;
+  this.password = password;
+}
 
+const user = new User('Oleg', '23', 'Male', '123qwe')
 
+console.log(user); */
 
 //17. * Циклом создать 5 пользователей (new User) и поместить каждого в массив users.
+
+/* function User(name, age, isMale, password) {
+  this.username = name;
+  this.age = age;
+  this.isMale = isMale;
+  this.password = password;
+}
+
+for(i = 1; i <= 5; i++) {
+  let users = new User;
+  console.log([users]);
+} */
+
