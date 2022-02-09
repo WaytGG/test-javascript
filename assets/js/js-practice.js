@@ -88,22 +88,22 @@ for (i = 1; i <= 15; i++) {
 
 const storage = [
   {
-    productName: "Apple",
-    price: "20",
-    balance: "1200",
-    productId: '1'
+    id: '1',
+    productName: 'Apple',
+    price: '20',
+    balance: '1200',
   },
   {
-    productName: "Orange",
-    price: "35",
-    balance: "400",
-    productId: '2'
+    id: '2',
+    productName: 'Orange',
+    price: '35',
+    balance: '400',
   },
   {
-    productName: "Kivi",
-    price: "30",
-    balance: "350",
-    productId: '3'
+    id: '3',
+    productName: 'Kivi',
+    price: '30',
+    balance: '350',
   },
 ];
 
@@ -134,18 +134,6 @@ console.log(result); */
 //Спрашивать у пользователя ИД продукта (индекс массива склада) который он хочет положить в Корзину покупок.
 //_Клонировать_ в Корзину обьект продукта, взятый из массива Склада (по ИД выбранному пользователем).
 
-const idProduct = prompt ('Введите id продукта');
-
-
-function funcBasket(idNum) {
-  let sumBasket = idNum;
-  sumBasket = Object.assign({}, storage.productId);
-  return sumBasket;
-}
-
-const basket = funcBasket(idProduct);
-
-console.log(basket);
 
 
 
