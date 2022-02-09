@@ -50,8 +50,10 @@ console.log(resultNumbers); */
 
 /* let arrCicle = [];
 
-for (let i = 0; i <= 15; i++) {
-	arrCicle[i] = i + 1;
+for (let i = 1; i <= 15; i++) {
+    arrCicle.push('user'+i);
 }
+
+const arrResult = arrCicle.splice(1,3,)
 
 console.log(arrCicle); */
