@@ -47,11 +47,11 @@ console.log(resultNumbers); */
 Пример (подчёркнутые должны быть удалены)
 [ "user1", _"user2"_, _"user3"_, _"user4"_, "user5", ..., _"user12"_ ]
  */
-/* 
+
 let arrCicle = [];
 
 for (let i = 1; i <= 15; i++) {
     arrCicle.push('user'+i);
 } 
 
-console.log(arrCicle); */
+console.log(arrCicle);

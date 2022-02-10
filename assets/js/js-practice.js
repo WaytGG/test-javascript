@@ -4,8 +4,7 @@
 
 for (i = 1; i <= 15; i++) {
   arr.push(i);
-}
- */
+}*/
 
 
 
@@ -88,22 +87,22 @@ for (i = 1; i <= 15; i++) {
 
 const storage = [
   {
-    id: '1',
-    productName: 'Apple',
-    price: '20',
-    balance: '1200',
+    id: "1",
+    productName: "Apple",
+    price: "20",
+    balance: "1200",
   },
   {
-    id: '2',
-    productName: 'Orange',
-    price: '35',
-    balance: '400',
+    id: "2",
+    productName: "Orange",
+    price: "35",
+    balance: "400",
   },
   {
-    id: '3',
-    productName: 'Kivi',
-    price: '30',
-    balance: '350',
+    id: "3",
+    productName: "Kivi",
+    price: "30",
+    balance: "350",
   },
 ];
 
@@ -134,18 +133,18 @@ console.log(result); */
 //Спрашивать у пользователя ИД продукта (индекс массива склада) который он хочет положить в Корзину покупок.
 //_Клонировать_ в Корзину обьект продукта, взятый из массива Склада (по ИД выбранному пользователем).
 
-// через find
+/* const arrBasket = [];
 
-const arrBasket = [];
+let userNum = prompt("Введите ид продукта");
 
-let userNum = prompt('Введите ид продукта');
-
-function funcBasket (idi) {
+function funcBasket(num) {
+  arrBasket.push(storage.at(num));
+  return arrBasket;
 }
 
-const resultBasket = funcBasket(userNum);
+funcBasket(userNum);
 
-console.log(resultBasket);
+console.log(arrBasket); */
 
 
 
@@ -164,6 +163,8 @@ const user = new User('Oleg', '23', 'Male', '123qwe')
 
 console.log(user); */
 
+
+
 //17. * Циклом создать 5 пользователей (new User) и поместить каждого в массив users.
 
 /* const users = [];
@@ -179,4 +180,3 @@ for(i = 1; i <= 5; i++) {
   users.push(user1);
 }
 console.log(users); */
-
