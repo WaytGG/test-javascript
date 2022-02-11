@@ -53,5 +53,5 @@ let arrCicle = [];
 for (let i = 1; i <= 15; i++) {
     arrCicle.push('user'+i);
 } 
-
 console.log(arrCicle);
+
