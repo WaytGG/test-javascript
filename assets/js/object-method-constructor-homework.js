@@ -12,16 +12,11 @@ const userLastame = prompt('Введите Фамилию');
 const userAge = prompt('Введите свой возраст');
 
 const userInfo = {
-  id: '',
-  firstname: '',
-  lastname: '',
-  age: ''
+  id: userId,
+  firstname: userFirstname,
+  lastname: userLastame,
+  age: userAge,
 }
-
-userInfo.id = userId;
-userInfo.firstname = userFirstname;
-userInfo.lastname = userLastame;
-userInfo.age = userAge;
 
 console.log(userInfo); */
 
