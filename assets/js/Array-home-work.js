@@ -20,16 +20,18 @@ console.log(arr2); */
 
 //3. Дан массив чисел 1...20. Вычислить сумму нечетных чисел массива
 
-/* let arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+const arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
-function arraySum(array){
-let sum = 0;
-for(let i = 0; i < array.length; i++){
-    sum += array[i];
-    }
-console.log(sum);
-}
-arraySum(arrNum); */
+const resultNumbers = arrNum.filter(function(i) {
+    return i % 2 === 0;
+});
+
+console.log(resultNumbers);
+
+const sumNum = resultNumbers.reduce((previousValue, currentValue)  //переделать
+ => previousValue + currentValue);
+
+
 
 
 //4. * Дан массив чисел 1 до 10. Удалить у него каждое нечетное значение
@@ -48,12 +50,12 @@ console.log(resultNumbers); */
 [ "user1", _"user2"_, _"user3"_, _"user4"_, "user5", ..., _"user12"_ ]
  */
 
-let arrCicle = [];
+/* let arrCicle = [];
 
 for (let i = 1; i <= 15; i++) {
     arrCicle.push('user'+i);
 } 
-console.log(arrCicle);
+console.log(arrCicle); */
 
 // (Удалить не получилось)
 
