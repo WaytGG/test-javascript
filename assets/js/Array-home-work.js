@@ -6,8 +6,6 @@ const arr2 = arr.push(5, 6, 7, 8, 9, 10);
 
 console.log(arr); */
 
-
-
 //2. Дан массив чисел [4, 9, 16, 25, 36, 49]. На его основе создать массив с квадратными корнями чисел (Math.sqrt)
 
 /* const arr = [4, 9, 16, 25, 36, 49];
@@ -16,33 +14,31 @@ const arr2 = arr.map(Math.sqrt);
 
 console.log(arr2); */
 
-
-
 //3. Дан массив чисел 1...20. Вычислить сумму нечетных чисел массива
 
-const arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+/* const arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 const resultNumbers = arrNum.filter(function(i) {
     return i % 2 === 0;
 });
 
-console.log(resultNumbers);
+const result = resultNumbers.reduce(function(a,b){return(a+b)})
 
-const sumNum = resultNumbers.reduce((previousValue, currentValue)  //переделать
- => previousValue + currentValue);
-
-
-
+console.log(result);*/
 
 //4. * Дан массив чисел 1 до 10. Удалить у него каждое нечетное значение
 
-/* const arrNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/* const arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const resultNumbers = arrNumbers.filter(function(i) {
-    return i % 2 === 0;
+arrNum.forEach(function (currentValue, i, arrNum) {
+  if (currentValue % 2 !== 0) {
+    arrNum.splice(i, 1);
+  }
 });
 
-console.log(resultNumbers); */
+console.log(arrNum);
+ */
+
 
 /* 5. * Обычным циклом создать массив строк от "user1" до "user15".
 Удалить все ячейки содержащие на конце строки символы 2, 3, 4.
@@ -50,12 +46,24 @@ console.log(resultNumbers); */
 [ "user1", _"user2"_, _"user3"_, _"user4"_, "user5", ..., _"user12"_ ]
  */
 
-/* let arrCicle = [];
+const arrUsers = [];
 
 for (let i = 1; i <= 15; i++) {
-    arrCicle.push('user'+i);
-} 
-console.log(arrCicle); */
+  arrUsers.push('user' + i);
+}
 
-// (Удалить не получилось)
+function delUser(arr) {
+  for (let i = 0; i <= 15; i++) {
+    if (String(arr[i]).endsWith('2')) {
+      arr.splice(i, 1);
+    } if (String(arr[i]).endsWith('3')) {
+      arr.splice(i, 1);
+    } if (String(arr[i]).endsWith('4')) {
+      arr.splice(i, 1);
+    }
+  }
+  return arr;
+}
 
+const resultUser = delUser(arrUsers);
+console.log(resultUser);
