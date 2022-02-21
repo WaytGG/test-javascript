@@ -19,12 +19,12 @@ console.log(arr2); */
 /* const arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 const resultNumbers = arrNum.filter(function(i) {
-    return i % 2 === 0;
+    return i % 2 !== 0;
 });
 
 const result = resultNumbers.reduce(function(a,b){return(a+b)})
 
-console.log(result);*/
+console.log(result); */
 
 //4. * Дан массив чисел 1 до 10. Удалить у него каждое нечетное значение
 
@@ -46,7 +46,7 @@ console.log(arrNum);
 [ "user1", _"user2"_, _"user3"_, _"user4"_, "user5", ..., _"user12"_ ]
  */
 
-const arrUsers = [];
+/* const arrUsers = [];
 
 for (let i = 1; i <= 15; i++) {
   arrUsers.push('user' + i);
@@ -67,3 +67,4 @@ function delUser(arr) {
 
 const resultUser = delUser(arrUsers);
 console.log(resultUser);
+ */
